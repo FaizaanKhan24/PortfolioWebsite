@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #0A043C;
+  height: 100vh;
 }
 
 .App-logo {
@@ -14,13 +16,11 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  height: calc(100vh - 105px);
+  display: flex; 
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content:center;
   color: white;
 }
 
@@ -35,4 +35,194 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar{
+  height: 75px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem, 0rem;
+  background-color:#0A043C;
+  color: #FFE3D8;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+
+.brand-name{
+  text-decoration: none;
+  color: #FFE3D8; 
+  font-size: 1.3rem;
+  margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.navigation-menu{
+  margin-left: auto;
+}
+
+.navigation-menu ul{
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  padding: 0;
+}
+
+.navigation-menu li{
+  list-style-type: none;
+  margin: 0 1rem;
+}
+
+.navigation-menu a{
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  color: #FFE3D8;
+}
+
+.btn {
+	line-height: 10px;
+	height: 30px;
+	text-align: center;
+	width: 75px;
+	cursor: pointer;
+  padding: 0px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px;
+  transition-duration: 0.3s;
+}
+
+.resume-btn{
+  background-color:#0A043C;
+  color: #FFE3D8;
+  border: 2px solid #FFE3D8;
+  border-radius: 4px;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.resume-btn:hover{
+  background-color: #FFE3D8;
+  color: #0A043C;
+}
+
+.footer{
+  background-color: royalblue;
+  color: #FFE3D8;
+  margin: 0 auto; 
+  padding: 0 50px;
+  font-size: smaller;
+  position:absolute;
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  width: 100%;
+  min-height: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-left{ 
+  width: 40%;
+  font-weight: bold;
+  display: flex;
+}
+
+.footer-right{
+  width: 40%; 
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+}
+
+.contact{
+  color: #BBBBBB; 
+  max-width: 600px;
+  margin: 0 auto 100px;
+  padding: 100px 0px;
+  display: block;
+}
+
+.contact-heading{
+  color: #FFE3D8;
+  margin: 0 0 10px;
+  font-size: 60px;
+  line-height: 1.1;
+}
+
+.contact-body{
+  font-size: 20px;
+}
+
+.contact-btn{
+  color: #FFE3D8;
+  background-color: #0A043C;
+  border: 2px solid #FFE3D8;
+  transition: all 0.25s;
+  position: relative;
+  border-radius: 4px;
+  padding: 1.25rem 1.75rem;
+  font-size: 14px;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.25s;
+  margin-top: 50px;
+}
+
+.contact-btn:hover{
+  background-color: #FFE3D8;
+  color: #0A043C;
+}
+
+.icon{
+  color: white;
+  text-align: center;
+  background-color: black;
+  font-size: 24;
+}
+
+.projects-container{
+  background-color: lightcoral;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 0.75fr 2fr; overflow: hidden;
+}
+
+.projectHeading{
+  grid-row: 1;
+  background-color: royalblue;
+  display: flex; 
+  flex-direction: column;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+}
+
+.projectHeading h2{
+  font-size: 60px;
+}
+
+.projects{
+  grid-row: 2; overflow-y: scroll;
+  background-color: lightgreen;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 25px;
+  row-gap: 30px;
+  padding: 30px 25px;
+}
+
+.project-details{ background-color: lightslategray;
+  min-width: 50px;
+  min-height: 150px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
