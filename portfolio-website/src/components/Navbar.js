@@ -1,29 +1,46 @@
-import React from 'react'
+import React, { useState } from 'react'
+import './Navbar.css';
 import {Link} from 'react-router-dom';
 import resumePDF from '../pdf/Mohammed Faizaan Khan Zubair Khan Resume.pdf';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 function Navbar(){
-
+    //Opens the resume in a new tab
     const openResume = () =>{
         //const resumeURL = 'https://drive.google.com/file/d/1-jE7Ko8jXQF6GnavCouWgHhYSfuM7zHU/view?usp=sharing';
+        setIsOpen(false);
         window.open(resumePDF, '_blank','noopener,noreferrer');
+    }
+
+    // Used to display the hamburger menu when in mobile mode
+    const [isOpen, setIsOpen] = useState(false);
+
+    const handleClick = () => {
+        setIsOpen(!isOpen);
+    }
+
+    const closeMenu = () => {
+        setIsOpen(false);
     }
 
   return (
     <div className='navbar'>
         <Link to='/' className='brand-name'>Faizaan Khan</Link>
-        <div className='navigation-menu'>
-            <ul>
-                <li>
-                    <Link to='/'> About</Link>
+        <div className='navbar-icon' onClick={handleClick}>
+            {isOpen ? <FaTimes /> : <FaBars />}
+        </div>
+        <div>
+            <ul className={isOpen ? 'navigation-menu sidebar' : 'navigation-menu'}>
+                <li className='navigation-menu-item'>
+                    <Link to='/' className='navigation-menu-links' onClick={closeMenu}> About</Link>
                 </li>
-                <li>
-                    <Link to='/projects'>Projects</Link>
+                <li className='navigation-menu-item'>
+                    <Link to='/projects' className='navigation-menu-links' onClick={closeMenu}>Projects</Link>
                 </li>
-                <li>
-                    <Link to='/contact'>Contact Me</Link>
+                <li className='navigation-menu-item'>
+                    <Link to='/contact' className='navigation-menu-links' onClick={closeMenu}>Contact Me</Link>
                 </li>
-                <li>
+                <li className='navigation-menu-item' onClick={openResume}>
                     <div>
                     <button onClick={openResume} className='btn resume-btn' >
                         <span>Resume</span>

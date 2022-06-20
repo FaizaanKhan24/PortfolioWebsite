@@ -1,0 +1,146 @@
+.navbar{
+    min-height: 75px;
+    height: 12%;
+	width: 100%;
+	background: #0A043C;
+	color: #FFE3D8;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem 0;
+	/* font-size: 1.2rem; */
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+
+.brand-name{
+    text-decoration: none;
+    color: #FFE3D8; 
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.navigation-menu{ 
+    display: grid;
+	grid-template-columns: repeat(4, auto);
+	grid-gap: 20px;
+	list-style: none;
+    grid-auto-flow: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.navigation-menu-item{
+    list-style-type: none;
+    margin: 0 1rem;
+}
+
+.navigation-menu-links{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #FFE3D8;
+}
+
+/* .navigation-menu ul{ background-color: antiquewhite;
+    display: flex; 
+    justify-content:flex-end; 
+    align-items: center;
+    padding: 0;
+} */
+
+
+.btn {
+	line-height: 10px;
+	height: 30px;
+	text-align: center;
+	width: 75px;
+	cursor: pointer;
+    padding: 0px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px;
+    transition-duration: 0.3s;
+}
+
+.resume-btn{
+    background-color:#0A043C;
+    color: #FFE3D8;
+    border: 2px solid #FFE3D8;
+    border-radius: 4px;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.resume-btn:hover{
+    background-color: #FFE3D8;
+    color: #0A043C;
+}
+
+.navbar-icon {
+	display: none;
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px){
+    .navbar{
+        position: relative;
+    }
+
+    .navigation-menu{
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        justify-items: stretch;
+        align-content: center;
+        align-items: stretch;
+        height: 80vh;
+        position:absolute;
+        text-align: center;
+        width: 100%;
+        top: 75px;
+        left: -100%;
+        transition: 0.3s all;
+        row-gap: 5%;
+    }
+
+    .navigation-menu.sidebar{
+        background: #0A043C; 
+		left: 0;
+    }
+
+    .navigation-menu-item, .navigation-menu-links{
+        /* padding: 10px 0; */
+		/* border: 1px solid red; */
+        display: flex;
+        height: 35px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation-menu-item:hover,
+    .navigation-menu-item:hover > *,
+    .navigation-menu-item:hover > * > .resume-btn{
+        background-color: #FFE3D8;
+        color: #0A043C;
+        transition: all 0s;
+        cursor: pointer;
+    }
+
+    .resume-btn{
+        border: 0;
+        transition: all 0s;
+    }
+
+    .navbar-icon{
+        display: flex;
+        padding: 0 10px;
+        margin-left: auto;
+    }
+}
