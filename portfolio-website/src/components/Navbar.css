@@ -45,6 +45,11 @@
     color: #FFE3D8;
 }
 
+.navigation-menu-item,
+.navigation-menu-item:hover > .navigation-menu-links{
+    cursor: pointer;
+}
+
 /* .navigation-menu ul{ background-color: antiquewhite;
     display: flex; 
     justify-content:flex-end; 
