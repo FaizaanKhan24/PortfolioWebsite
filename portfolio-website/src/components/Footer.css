@@ -10,7 +10,7 @@
     bottom: 0; 
     width: 100%;
     min-height: 30px;
-    height: 5%;
+    height: 8%;
     display: flex;
     align-items: center;
 }
@@ -32,8 +32,8 @@
     color: white;
     text-align: center;
     background-color: transparent;
-    font-size: 16px;
-    margin: 0 7px;
+    font-size: 1.25rem;
+    margin: 0 .75rem;
 }
 
 .brandIcon:hover{
@@ -42,7 +42,7 @@
     cursor: pointer;
 }
 
-@media ( max-width:767px ){
+@media ( max-width:768px ){
     .footer{
         flex-direction: column;
         height: 8%;
