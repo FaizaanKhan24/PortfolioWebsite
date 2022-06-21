@@ -32,7 +32,7 @@ function Navbar(){
         <div>
             <ul className={isOpen ? 'navigation-menu sidebar' : 'navigation-menu'}>
                 <li className='navigation-menu-item'>
-                    <Link to='/' className='navigation-menu-links' onClick={closeMenu}> About</Link>
+                    <Link to='/about' className='navigation-menu-links' onClick={closeMenu}> About</Link>
                 </li>
                 <li className='navigation-menu-item'>
                     <Link to='/projects' className='navigation-menu-links' onClick={closeMenu}>Projects</Link>
