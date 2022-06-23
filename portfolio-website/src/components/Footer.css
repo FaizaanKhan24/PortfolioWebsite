@@ -1,6 +1,6 @@
 .footer{
-    background-color: #0A043C;
-    color: #FFE3D8;
+    background-color: var(--color-background);
+    color: var(--color-text);
     margin: 0 auto;  
     padding: 0 30px;
     font-size: smaller;
@@ -19,8 +19,9 @@
     width: 50%; 
     font-weight: bold;
     display: flex;
+    font-size: 1rem;
+    padding: 10px 0 5px;
 }
-
 .footer-right{
     width: 50%;
     display: flex;
@@ -29,7 +30,7 @@
 }
 
 .brandIcon{
-    color: white;
+    color: var(--color-icon);
     text-align: center;
     background-color: transparent;
     font-size: 1.25rem;
@@ -37,8 +38,6 @@
 }
 
 .brandIcon:hover{
-    color: #FFE3D8;
-    background-color: #0A043C;
     cursor: pointer;
 }
 

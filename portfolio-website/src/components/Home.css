@@ -1,31 +1,25 @@
 .home-container{
     display: flex;
     flex-direction: column;
-    /* background-color: lightseagreen; */
     padding: 100px 2rem;
     margin: 0 auto 100px;
     align-items: flex-start;
+    background-color: white;
 }
 
 .greetings{
-    margin: 0px 0px 1rem 4px;
+    margin: 0px 0px 0.25rem 4px;
     font-size: 1.5rem;
-    /* color: var(--green);
-    font-family: var(--font-mono);
-    font-size: clamp(var(--fz-sm),5vw,var(--fz-md)); */
     font-weight: 400;
+    color: gray;
 }
 
 .name{
     margin: 0px;
     font-size: clamp(40px, 8vw, 80px);
     font-weight: 750;
-    /* color: var(--lightest-slate); */
     line-height: 1.1;
-    /* margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px; */
+    color: royalblue;
 }
 
 .description{
@@ -34,4 +28,5 @@
     font-size: clamp(40px, 8vw, 80px);
     font-weight: 400;
     text-align: start;
+    color: black;
 }

@@ -2,17 +2,18 @@
     height: 100%;
     width: 100%;
     display: grid;
-    padding: 2rem;
+    margin: 2rem;
+    padding: 0 2rem 2rem;
     grid-template-columns: 1fr 2fr;
     column-gap: 3rem;
-    background-color: black;
+    background-color: var(--color-background);
     align-items: center;
+    font-family: monospace, sans-serif;
 }
 
 .about-me{
-    background-color: gray;
+    color: var(--color-text);
     display: flex;
-    border: 1px solid red;
     align-items: center;
     padding: 2rem;
     line-height: 1.2;
@@ -32,7 +33,7 @@
 .technologies h3{
     margin: 0 1rem 1rem;
     font-size: 1.5rem;
-    color: lightgray;
+    color: var(--color-lighgray);
     text-align: left;
 }
 
@@ -43,7 +44,7 @@
 }
 
 .tech-icons{
-    color: white;
+    color: var(--color-white);
     text-align: center;
     background-color: transparent;
     font-size: 2rem;

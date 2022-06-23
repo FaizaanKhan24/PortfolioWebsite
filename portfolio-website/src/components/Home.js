@@ -11,7 +11,8 @@ function Home() {
             Faizaan Khan.
         </div>
         <div className='description'>
-            I make apps for web and mobile.
+            {/* I make apps for web and mobile. */}
+            I'm a Software Engineer.
         </div>
     </div>
   )

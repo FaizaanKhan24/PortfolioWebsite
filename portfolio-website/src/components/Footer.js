@@ -17,7 +17,7 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='footer-left'>
-        Designed & built by Faizaan Khan
+        <p>Designed & built by <span className='name-color'>Faizaan Khan</span></p>
         </div>
         <div className='footer-right'>
           <IconContext.Provider value={{className:'brandIcon'}}>

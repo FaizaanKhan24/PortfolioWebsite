@@ -2,19 +2,18 @@
     min-height: 75px;
     height: 12%;
 	width: 100%;
-	background: #0A043C;
-	color: #FFE3D8;
+    background-color: var(--color-background);
+    color: var(--color-text);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 0.5rem 0;
-	/* font-size: 1.2rem; */
     box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
 }
 
 .brand-name{
     text-decoration: none;
-    color: #FFE3D8; 
+    color: var(--color-text);
     font-size: 1.3rem;
     margin-left: 1rem;
     display: flex;
@@ -42,7 +41,7 @@
     text-decoration: none;
     display: block;
     width: 100%;
-    color: #FFE3D8;
+    color: var(--color-text);
 }
 
 .navigation-menu-item,
@@ -50,21 +49,13 @@
     cursor: pointer;
 }
 
-/* .navigation-menu ul{ background-color: antiquewhite;
-    display: flex; 
-    justify-content:flex-end; 
-    align-items: center;
-    padding: 0;
-} */
-
-
 .btn {
 	line-height: 10px;
-	height: 30px;
+	height: 40px;
 	text-align: center;
-	width: 75px;
+	width: 85px;
 	cursor: pointer;
-    padding: 0px;
+    padding: 5px;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
@@ -73,17 +64,18 @@
 }
 
 .resume-btn{
-    background-color:#0A043C;
-    color: #FFE3D8;
-    border: 2px solid #FFE3D8;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    border: 2px solid var(--color-black);
     border-radius: 4px;
     transition: all 0.5s;
     position: relative;
 }
 
 .resume-btn:hover{
-    background-color: #FFE3D8;
-    color: #0A043C;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border: 2px solid var(--color-blue);
 }
 
 .navbar-icon {
@@ -109,22 +101,20 @@
         position:absolute;
         text-align: center;
         width: 100%;
-        top: 75px;
+        top: calc(0.12*100vh);
         left: -100%;
         transition: 0.3s all;
         row-gap: 5%;
     }
 
     .navigation-menu.sidebar{
-        background: #0A043C; 
+        background-color: var(--color-background);
 		left: 0;
     }
 
     .navigation-menu-item, .navigation-menu-links{
-        /* padding: 10px 0; */
-		/* border: 1px solid red; */
         display: flex;
-        height: 35px;
+        height: 40px;
         justify-content: center;
         align-items: center;
     }
@@ -132,10 +122,11 @@
     .navigation-menu-item:hover,
     .navigation-menu-item:hover > *,
     .navigation-menu-item:hover > * > .resume-btn{
-        background-color: #FFE3D8;
-        color: #0A043C;
-        transition: all 0s;
+        background-color: var(--color-blue);
+        color: var(--color-white);
+        transition: all 0.3s;
         cursor: pointer;
+        border-radius: 20px;
     }
 
     .resume-btn{

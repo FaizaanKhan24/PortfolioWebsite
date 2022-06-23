@@ -26,19 +26,19 @@ function Projects() {
     },
     {
       name: 'Chat Application',
-      description: 'This real-time chat application lets you create multiple-channels and users',
+      description: 'This real-time chat application lets you create multiple-channels and users.',
       link: 'https://github.com/FaizaanKhan24/MessagingWebApp',
       youTubeLink: 'https://www.youtube.com/watch?v=SQNdxWlHWcA',
     },
     {
       name: 'Book Review Website',
-      description: 'The application uses GoodReads API to show all the books, the user can also add their comments and reviews',
+      description: 'The application uses GoodReads API to show all the books, the user can also add their comments and reviews.',
       link: 'https://github.com/FaizaanKhan24/BookReviewWebsite',
       youTubeLink: 'https://www.youtube.com/watch?v=GQWuLMyx-5Q',
     },
     {
       name: 'Sudoku Solver',
-      description: 'A reactJS application that has pre-defined sudoku boards. It solves the puzzles with the help of backtracking algorithm.',
+      description: 'A ReactJS application that has pre-defined sudoku boards. It solves the puzzles with the help of backtracking algorithm.',
       link: 'https://github.com/FaizaanKhan24/SudokuSolver',
       youTubeLink: '',
     },

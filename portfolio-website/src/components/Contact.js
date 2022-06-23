@@ -10,14 +10,15 @@ function Contact() {
   return (
     <div className='contact'>
       <h2 className='contact-heading'>
-        Hi there, let's have a talk
+        Hello, let's get in touch
       </h2>
       <div className='contact-body'>
-        Currently, I'm in the market in search of a Full-time/Intern Software Engineer. We can talk about interesting opportunities or just have a chat.  
+        <p>I'm open to have a chat on any interesting project ideas, technologies you wanna discuss, or just have a chat. My indox is available for you.</p>
+        <p>Currently, I'm looking for full-time opportunities.</p>
       </div>
       <div>
         <button onClick={mailToEmail} className='contact-btn'>
-          Say Hello!
+          Let's connect
         </button>
       </div>
     </div>

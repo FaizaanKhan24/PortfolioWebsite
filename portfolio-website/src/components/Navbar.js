@@ -32,18 +32,18 @@ function Navbar(){
         <div>
             <ul className={isOpen ? 'navigation-menu sidebar' : 'navigation-menu'}>
                 <li className='navigation-menu-item'>
-                    <Link to='/about' className='navigation-menu-links' onClick={closeMenu}> About</Link>
+                    <Link to='/about' className='navigation-menu-links' onClick={closeMenu}> ABOUT</Link>
                 </li>
                 <li className='navigation-menu-item'>
-                    <Link to='/projects' className='navigation-menu-links' onClick={closeMenu}>Projects</Link>
+                    <Link to='/projects' className='navigation-menu-links' onClick={closeMenu}>PROJECTS</Link>
                 </li>
                 <li className='navigation-menu-item'>
-                    <Link to='/contact' className='navigation-menu-links' onClick={closeMenu}>Contact Me</Link>
+                    <Link to='/contact' className='navigation-menu-links' onClick={closeMenu}>CONTACT ME</Link>
                 </li>
                 <li className='navigation-menu-item' onClick={openResume}>
                     <div>
                     <button onClick={openResume} className='btn resume-btn' >
-                        <span>Resume</span>
+                        <span>RESUME</span>
                     </button>
                     </div>
                 </li>

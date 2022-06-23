@@ -55,7 +55,7 @@ function About(){
       </div>
       <div className='about-me'>
         <div>
-        <p>Hello, my name is <b>Faizaan Khan</b>. I'm a student at Binghamton University, New York. </p>
+        <p>Hello, my name is <span className='name-color'><b>Faizaan Khan</b></span>. I'm a student at Binghamton University, New York. </p>
         <p>I find it satisfying to code up UI/UX designs into web and mobile application. It brings pleasure to my eyes. Everyday I wake up trying to be an aesthetic-head, if that is even a thing. LOL (No offense potterheads)
         Talking about Front-end, I have also got my keyboard dirty working on Databases and APIs for my projects.</p>
         <p>I have worked as a Full-Stack Mobile developer at Syncfusion, India. The idea of having the ability to build products that help smoothen our day to day life is why I do what I do. I have constantly tired to expand my knowledge pool and improve myself as a developer and person. This journey has brought me here. Currently, I'm looking for a full-time opportunity.</p>

@@ -1,5 +1,5 @@
 .contact{
-    color: #BBBBBB; 
+    color: var(--color-text); 
     max-width: 600px;
     margin: 0 auto 100px;
     padding: 100px 0px;
@@ -7,7 +7,7 @@
   }
   
   .contact-heading{
-    color: #FFE3D8;
+    color: var(--color-blue);
     margin: 0 0 10px;
     font-size: 4rem;
     line-height: 1.1;
@@ -18,9 +18,9 @@
   }
   
   .contact-btn{
-    color: #FFE3D8;
-    background-color: #0A043C;
-    border: 2px solid #FFE3D8;
+    color: var(--color-black);
+    background-color: var(--color-white);
+    border: 2px solid var(--color-black);
     transition: all 0.25s;
     border-radius: 0.25rem;
     padding: 1.25rem 1.75rem;
@@ -33,6 +33,7 @@
   }
   
   .contact-btn:hover{
-    background-color: #FFE3D8;
-    color: #0A043C;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border: 2px solid var(--color-blue);
   }
