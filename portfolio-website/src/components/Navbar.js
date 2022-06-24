@@ -42,7 +42,7 @@ function Navbar(){
                 </li>
                 <li className='navigation-menu-item' onClick={openResume}>
                     <div>
-                    <button onClick={openResume} className='btn resume-btn' >
+                    <button className='btn resume-btn' >
                         <span>RESUME</span>
                     </button>
                     </div>
