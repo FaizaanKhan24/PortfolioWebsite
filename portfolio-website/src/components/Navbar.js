@@ -25,7 +25,7 @@ function Navbar(){
 
   return (
     <div className='navbar'>
-        <Link to='/' className='brand-name'>Faizaan Khan</Link>
+        <Link to='/portfolio-website' className='brand-name' onClick={closeMenu}>Faizaan Khan</Link>
         <div className='navbar-icon' onClick={handleClick}>
             {isOpen ? <FaTimes /> : <FaBars />}
         </div>
