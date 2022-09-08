@@ -65,31 +65,37 @@ function About(){
         <p>
         My first real-life product experience was working on an iOS application using Xamarin Forms. From there I worked on different projects. I was entrusted with developing the UI/UX for an application from scratch. I got the following learning and experience: 
         </p>
-        <ul>
-          <li>Working with iOS and Android SDKs</li>
-          <li>How to approach a problem</li>
-          <li>Debugging bugs and issues</li>
-          <li>Handling deadlines</li>
-          <li>Importance of testing</li>
-          <li>Developing an application with the perspective that everything can go wrong and break the application</li>
-        </ul>
+        <div>
+          <ul>
+            <li>Working with iOS and Android SDKs</li>
+            <li>How to approach a problem</li>
+            <li>Debugging bugs and issues</li>
+            <li>Handling deadlines</li>
+            <li>Importance of testing</li>
+            <li>Developing an application with the perspective that everything can go wrong and break the application</li>
+          </ul>
+        </div>
+        <br/>
         <p>
         Apart from mobile development experience, I have also worked on web applications. I’m confident in my full-stack development skills and would wanna become stronger by working on more diverse projects and stacks.
         </p>
         <p>
         Since Fall 2021, I’ve been pursuing my Masters in Computer Science at Binghamton University. I’ve completed the following coursework.
         </p>
-        <ul>
-          <li>Operating Systems</li>
-          <li>Programming Languages</li>
-          <li>Machine Learning</li>
-          <li>Cloud Computing</li>
-          <li>Database Systems</li>
-          <li>Design and Analysis of Algorithms</li>
-          <li>Computer Architecture</li>
-          <li>Design Patterns</li>
-          <li>Introduction to Data Mining</li>
-        </ul>
+        <div>
+          <ul>
+            <li>Operating Systems</li>
+            <li>Programming Languages</li>
+            <li>Machine Learning</li>
+            <li>Cloud Computing</li>
+            <li>Database Systems</li>
+            <li>Design and Analysis of Algorithms</li>
+            <li>Computer Architecture</li>
+            <li>Design Patterns</li>
+            <li>Introduction to Data Mining</li>
+          </ul>
+        </div>
+        <br/>
         <p>
         Currently, I’m looking for a full-time opportunity in the field of Software Engineering.
         </p>

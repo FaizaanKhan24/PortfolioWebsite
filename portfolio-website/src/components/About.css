@@ -25,6 +25,11 @@
     margin-bottom: 1.25rem;
 }
 
+.about-me ul{
+    text-align: justify;
+    padding: 0 2rem;
+}
+
 .technologies{
     background-color: royalblue;
     padding: 2rem 1rem;
